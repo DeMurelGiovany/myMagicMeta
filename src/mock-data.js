@@ -1,10 +1,8 @@
-const DECK_DATA = [
-    {
+const DECK_DATA = [{
         name: 'Varina',
         commander: 'Varina, Lich Queen',
         user: 'Gigi',
-        cards: 
-        [
+        cards: [
             'Varina, Lich Queen',
             'Anguished Unmaking',
             'Snow-Covered Swamp',
@@ -21,8 +19,7 @@ const DECK_DATA = [
         name: 'Mimeoplasm',
         commander: 'The Mimeoplasm',
         user: 'Gigi',
-        cards: 
-        [
+        cards: [
             'The Mimeoplasm',
             'Urban Evolution'
             // {cardname: 'The Mimeoplasm', cardtype: 'Creature'},
@@ -33,8 +30,7 @@ const DECK_DATA = [
         name: 'Codie',
         commander: 'Codie, Vociferous Codex',
         user: 'Sil',
-        cards: 
-        [
+        cards: [
             'Codie, Vociferous Codex',
             'Nissa, Who Shakes the World'
             // {cardname: 'Codie, Vociferous Codex', cardtype: 'Creature'},
@@ -45,32 +41,28 @@ const DECK_DATA = [
 
 ];
 
-const PLAYER_DATA = [
-    {
+const PLAYER_DATA = [{
         name: 'Gigi',
-        decks:
-        [
+        decks: [
             DECK_DATA[0],
             DECK_DATA[1],
-           
+
         ]
     },
     {
         name: 'Sil',
-        decks:
-        [
+        decks: [
             DECK_DATA[3],
         ]
     },
 ];
 
-const GAME_DATA = [
-    {
+const GAME_DATA = [{
         date: '2021-10-14T12:32:04.534Z',
         players: ['Gigi', 'Sil'],
         decks: ['Varina', 'Codie'],
         winner: 'Sil'
-        
+
     },
     {
         date: '2021-10-14T14:00:00.534Z',
@@ -86,5 +78,8 @@ const GAME_DATA = [
     }
 ];
 
-export {DECK_DATA, PLAYER_DATA, GAME_DATA};
-
+export {
+    DECK_DATA,
+    PLAYER_DATA,
+    GAME_DATA
+};
